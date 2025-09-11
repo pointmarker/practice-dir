@@ -1,0 +1,2 @@
+--- 11.09 --- 
+i started trying basic tailwind commands, current task is making a card, the last one u see
