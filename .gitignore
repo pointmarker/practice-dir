@@ -2,3 +2,6 @@ api-design/environment
 js-scripting-techniques
 Node Modules PRACTICE
 node_modules
+
+package-lock.json
+package.json
