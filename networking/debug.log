@@ -1,0 +1,5 @@
+[0918/094519.098:ERROR:registration_protocol_win.cc(108)] CreateFile: Sistem belirtilen dosyayı bulamıyor. (0x2)
+[0918/094525.223:ERROR:registration_protocol_win.cc(108)] CreateFile: Sistem belirtilen dosyayı bulamıyor. (0x2)
+[0918/094525.249:ERROR:registration_protocol_win.cc(108)] CreateFile: Sistem belirtilen dosyayı bulamıyor. (0x2)
+[0918/094525.678:ERROR:registration_protocol_win.cc(108)] CreateFile: Sistem belirtilen dosyayı bulamıyor. (0x2)
+[0918/094540.190:ERROR:registration_protocol_win.cc(108)] CreateFile: Sistem belirtilen dosyayı bulamıyor. (0x2)
