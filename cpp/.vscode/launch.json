@@ -1,0 +1,8 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "miDebuggerPath": "C:\\Users\\90533\\AppData\\Local\\ccompiler\\mingw64\\bin\\gdb.exe",
+        }
+    ]
+}
