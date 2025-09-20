@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>{{ data.title }}</h1>
+    <h2>{{ data.message }}</h2>
+
+    <form onsubmit="submitHandler(event)">
+        <input type="text" placeholder="username" name="username">
+        <button type="submit">send</button>
+    </form>
+    <script>
+        const submitHandler = async(e) => {
+            e.preventDefault();
+
+            const form = e.target;
+            const fd = new FormData(form);
+
+            const res = await fetch('/api',{
+                method:'POST',
+                headers: {"Content-Type": "plain/text"},
+                body: fd.get('username')
+            })
+
+        }
+    </script>
+</body>
+</html>
